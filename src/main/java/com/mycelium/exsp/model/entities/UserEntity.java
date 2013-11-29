@@ -2,17 +2,17 @@ package com.mycelium.exsp.model.entities;
 
 public class UserEntity implements Entity {
 
-	private long _id;
+	private Long _id;
 	private String _login;
 	private String _email;
 
 	@Override
-	public long getId() {
+	public Long getId() {
 		return _id;
 	}
 
 	@Override
-	public void setId(long id) {
+	public void setId(Long id) {
 		_id = id;
 	}
 
